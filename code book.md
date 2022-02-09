@@ -66,7 +66,7 @@ References: Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge 
 	+ "-mean()" -. "Mean"
 		+ Using regular expression to find words which has ''-mean'
 	+ "-std()" -> "STD"
-		+ + Using regular expression to find words which has ''-std'
+		+ Using regular expression to find words which has ''-std'
 
 ### Generating the final data frame
 + Data are grouped by 'subject' and 'activity'
