@@ -1,8 +1,13 @@
 library(dplyr)
 library(data.table)
 
-# Getting data
+# Creating the data folder if not available
 
+if(!file.exists("data")){
+  dir.create("data")
+}
+
+# Getting data
 if (!file.exists("data/README.txt")) {
   if (!file.exists("data/raw.zip")) {
     url <-
@@ -82,4 +87,4 @@ dfF <- df %>%
   group_by(subject, activity) %>%
   summarise_all(mean)
 
-str(dfF)
+write.table(dfF, "output.txt", row.name=FALSE)
