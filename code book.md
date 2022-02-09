@@ -72,9 +72,3 @@ References: Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge 
 + Data are grouped by 'subject' and 'activity'
 + mean of the each column for pair is calculated
 	+ Line-81:83
-
-
-
-	
-
-
