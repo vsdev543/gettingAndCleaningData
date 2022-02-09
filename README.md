@@ -24,7 +24,6 @@ References: Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge 
 + Root folder also contains a "README.md" and a "code book.md" file.
 + 'code book.md' file explains the data, variable and the methods used in run_analysis.R script to generate final output.
 + run_analysis is also reside in root folder and performs data preparation and to satisfy marking criteria of the assignment.
-=======
 + Root folder also contains a "README.md" and a "code book.md" file.
 + 'code book.md' file explains the data, variable and the methods used in run_analysis.R script to generate final output.
 + run_analysis is also reside in root folder and performs data preparation and to satisfy marking criteria of the assignment.
